@@ -1,26 +1,26 @@
 <template>
   <div class="order-content" style="padding: 0 8px" v-for="(item, index) in unFinishedList" :key="'List' + index">
     <div class="content-header">
-      <div class="header-left">
-        <div class="title">{{ item.shopName }}></div>
-        <!--<div class="time">{{ item.orderTime }}</div>-->
+      <div class="title">
+        <van-icon name="shop" size="24px" />
+        &nbsp;{{ item.shopName }}
       </div>
-      <div class="header-right">
-        <div class="complete">未完成</div>
-      </div>
+      <div class="orderStatus">进行中</div>
     </div>
     <div class="content-middle">
       <div class="middle-left">
-        <img :src="item.picture" />
+        <img :src="item.picture" class="orderImage" />
       </div>
       <div class="middle-right">
         <div class="price">￥{{ item.price }}</div>
-        <!--<div class="num">{{ item.buyCounts }}</div>-->
       </div>
     </div>
-    <div class="content-btn">
-      <div class="invoice" @click="drawBill">开发票</div>
-      <div class="again" @click="buyMore">再来一单</div>
+    <div class="content-bottom">
+      <span>{{item.orderTime}}</span>
+      <div>
+        <span class="invoice" @click="drawBill">开发票</span>
+        <span class="again" @click="buyMore">再来一单</span>
+      </div>
     </div>
   </div>
 </template>
@@ -40,7 +40,7 @@ const drawBill = () => {
   router.push("/orderDetial");
 };
 // 跳转订单详情
-const goDetail = (id:any) => {
+const goDetail = (id: any) => {
   router.push("/orderDetial/" + id);
 };
 // 当前订单列表
@@ -50,7 +50,7 @@ onMounted(async () => {
   unFinishedList.value = res.data.filter((item: any) => {
     return item.isFinished !== true
   })
-  console.log('订单列表',unFinishedList.value)
+  console.log('订单列表', unFinishedList.value)
   for (let i = 0; i < unFinishedList.value.length; i++) {
     let api = unFinishedList.value[i].isProduction === true ? 'production/' : 'groceryHot/'
     axios.get('http://localhost:12580/' + api + unFinishedList.value[i].goodId).then((result) => {
@@ -62,110 +62,87 @@ onMounted(async () => {
 
 <style scoped lang="scss">
 .order-content {
-  background: #fff;
-  height: 230px;
-  margin-bottom: 20px;
-}
-
-.order-header div {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #f1f1f1;
+  height: 30vh;
+  margin-bottom: 10px;
+  padding: 10px 0;
 }
 
 .content-header {
-  height: 70px;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px 0;
+}
+.orderStatus{
+  width: 50px;
+  margin-top: 5px;
 }
 
-.content-header .header-left {
-  margin-top: 30px;
-  margin-left: 10px;
-  float: left;
+.orderImage {
+  width: 100px;
+  height: 100px;
 }
 
-.content-header .header-right {
-  margin-top: 30px;
-  margin-right: 20px;
-  float: right;
+.title {
+  display: flex;
+  align-items: center;
 }
 
-.content-header .header-left .title {
-  font-size: 14px;
-  color: rgb(66, 73, 104);
-}
-
-.content-header .header-left .time {
-  font-size: 14px;
-  color: #999999;
-}
-
-.content-header .header-right .complete {
-  color: #999999;
+.content-bottom {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content-middle {
-  height: 90px;
-}
-
-.content-middle .middle-left {
-  float: left;
-}
-
-.content-middle .middle-left img {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-}
-
-.content-middle .middle-right {
-  float: right;
-  margin-right: 15px;
-  font-size: 16px;
-}
-
-.content-middle .middle-right .price {
-  margin-top: 50px;
-  color: #333333;
-}
-
-.content-middle .middle-right .num {
-  color: #999999;
-  font-size: 15px;
-}
-
-.content-btn {
-  height: 30px;
+  height: 16vh;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.content-btn .invoice {
+.price {
+  width: 100px;
+  margin-top: 20px;
+  color: #333333;
+  font: 900 22px '';
+  display: flex;
+  justify-content: end;
+}
+
+.content-bottom {
+  // height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content-bottom .invoice {
+  display: inline-block;
   text-align: center;
   line-height: 30px;
   padding: 0 15px;
   height: 30px;
   border: 1px solid skyblue;
   margin-right: 10px;
-  margin-top: 20px;
+  // margin-top: 20px;
   border-radius: 5px;
 }
 
-.content-btn .again {
+.content-bottom .again {
+  display: inline-block;
   text-align: center;
   line-height: 30px;
   padding: 0 10px;
   height: 30px;
   border: 1px solid orange;
   color: orange;
-  margin-top: 20px;
+  // margin-top: 20px;
   border-radius: 5px;
-}
-
-.footer {
-  text-align: center;
-  height: 296px;
-  margin-top: 20px;
 }
 </style>

@@ -27,7 +27,6 @@ declare module '@vue/runtime-core' {
     TeaParty: typeof import('./src/components/home/TeaParty.vue')['default']
     VanButton: typeof import('vant/es')['Button']
     VanCellGroup: typeof import('vant/es')['CellGroup']
-    VanEmpty: typeof import('vant/es')['Empty']
     VanField: typeof import('vant/es')['Field']
     VanForm: typeof import('vant/es')['Form']
     VanGrid: typeof import('vant/es')['Grid']
