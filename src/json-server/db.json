@@ -1,0 +1,816 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "feng",
+      "password": "f123456",
+      "avatar": "https://i1.hdslb.com/bfs/face/52fdc546888d1cc16628d90785e89f84f9d1b202.jpg@240w_240h_1c_1s.webp",
+      "registerTime": 0
+    },
+    {
+      "id": 2,
+      "username": "kfc11",
+      "password": "a555666a",
+      "avatar": "https://i1.hdslb.com/bfs/face/52fdc546888d1cc16628d90785e89f84f9d1b202.jpg@240w_240h_1c_1s.webp",
+      "registerTime": 0
+    }
+  ],
+  "manager": [
+    {
+      "id": 1,
+      "account": "admin",
+      "name": "超管",
+      "password": "123456",
+      "avatar": "src/assets/images/图片全名",
+      "registerTime": 0
+    },
+    {
+      "id": 666,
+      "account": "administrator",
+      "name": "超级管理员",
+      "password": "123456",
+      "avatar": "src/assets/images/头像图片全名",
+      "registerTime": 0
+    }
+  ],
+  "production": [
+    {
+      "id": 1,
+      "goodsName": "喜柿多多",
+      "price": 19,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1802/NCbpT9sw9YjEXLHddF2g8Lew7ceZ7BVcGX9qhpZg.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1802/39E4zXFQHb147RtnqlIbrLBxUZpVqbETDuZZuhNV.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "",
+      "tagTemperature": "",
+      "description": "喜茶首款柿子茶，优选当季甜橇柿子，香甜浓郁,果肉软糯拉丝，软籽品莹弹韧。入口满满鲜柿子果肉，口口都满足。冰沙中的无香精绿妍茶底茉香悠悠，绵延清雅，与香甜醇厚的柿子安然相衬。底部的脆波波Q弹脆夹,整体冰甜可口，清新怡人。喝「真」喜柿，祝有喜事。",
+      "category": "时令鲜果",
+      "isHot": false,
+      "isRecommend": false,
+      "cupSize": "冷500ml",
+      "materials": "层层筛选,择优质当季新鲜柿子,香甜软糯;清新无香精绥妍茶汤,融合柿子打制冰沙，底部搭配Q弹的酪波波。",
+      "taste": "入满满鲜柿子果肉,稠蜜软糯,保留真柿子多肉口感,果肉软糯拉丝,软籽品莹弹韧。底部搭配Q弹脆爽的脆波波。口感丰富曼。绵延清雅的无香精绿妍茶汤融合香甜醇厚的柿子打制冰沙，整体冰甜可口:清新怡人。",
+      "tips": "果肉料足，喝前请先搅一搅,口感更佳。肠胃敏感者、孕妇、幼儿请酌情饮用。建议不要与含高蛋白的蟹、鱼、虾等海鲜类同食。"
+    },
+    {
+      "id": 2,
+      "goodsName": "多肉桃李",
+      "price": 15,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1803/V7b5hINkEGTY3ZUoW8pMolfV7tlPGHDRbnxJgju9.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1803/t9QOnem3rxzbeUni7lF3goQEADUzdNUfxYijuD0f.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "",
+      "tagTemperature": "",
+      "description": "人手一杆的真果快乐。优选当季脆红李MIX当季水蜜桃。馥郁脆红李香气与水蜜桃的酸甜沁爽,包裹住清雅荣莉花香，脆、鲜、甜层层递进。",
+      "category": "时令鲜果/评价推荐",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷500ml",
+      "materials": "优选当季脆红李MIlX当季水蜜桃，脆红李酸甜脆爽,搭配柔软细嫩的水蜜桃释放饱满桃香，清甜迸发。",
+      "taste": "",
+      "tips": "为保证时令鲜果凤味，李子、桃子品种可能会随产季进行品种切换。饮用前先用吸管搅拌，让果肉和冰沙均匀搅拌在一起，风味更佳。"
+    },
+    {
+      "id": 3,
+      "goodsName": "超大桶多肉桃李",
+      "price": 19,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1804/EwXt2cioAQ3tIMS2UmI2AKiwxIzrY8TG9AmqI4AS.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1804/EwXt2cioAQ3tIMS2UmI2AKiwxIzrY8TG9AmqI4AS.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "",
+      "tagTemperature": "",
+      "description": "人手一杆的真果快乐。优选当季脆红李MIX当季水蜜桃。馥郁脆红李香气与水蜜桃的酸甜沁爽,包裹住清雅荣莉花香，脆、鲜、甜层层递进。",
+      "category": "时令鲜果/评价推荐",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷970ml",
+      "materials": "优选当季脆红李MIlX当季水蜜桃，脆红李酸甜脆爽,搭配柔软细嫩的水蜜桃释放饱满桃香，清甜迸发。",
+      "taste": "",
+      "tips": "为保证时令鲜果凤味，李子、桃子品种可能会随产季进行品种切换。饮用前先用吸管搅拌，让果肉和冰沙均匀搅拌在一起，风味更佳。"
+    },
+    {
+      "id": 4,
+      "goodsName": "迷你多肉桃李",
+      "price": 9,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1912/YuVfc4yj2Z5sShwiT2Z8Pqt1REpzf1HhzZ2UuI7Q.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "",
+      "tagTemperature": "",
+      "description": "人手一杆的真果快乐。优选当季脆红李MIX当季水蜜桃。馥郁脆红李香气与水蜜桃的酸甜沁爽,包裹住清雅荣莉花香，脆、鲜、甜层层递进。",
+      "category": "时令鲜果/评价推荐",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷360ml",
+      "materials": "优选当季脆红李MIlX当季水蜜桃，脆红李酸甜脆爽,搭配柔软细嫩的水蜜桃释放饱满桃香，清甜迸发。",
+      "taste": "",
+      "tips": "为保证时令鲜果凤味，李子、桃子品种可能会随产季进行品种切换。饮用前先用吸管搅拌，让果肉和冰沙均匀搅拌在一起，风味更佳。"
+    },
+    {
+      "id": 5,
+      "goodsName": "绫人 · 水影龙眼椰",
+      "price": 19,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1805/ZxQJqlXdsIIJH4tkmDbX31YLRMx2gQ9twSTZGkrA.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1805/2B2OVKpSlGkpTfGQ6jrZjGTF5Cc9tK5sHupfSkQi.jpeg"
+      ],
+      "tagContent": "含椰子制品",
+      "tagAd": "喜茶x原神",
+      "tagTemperature": "",
+      "description": "喜荼×原神联名款,灵感源自水系角色「神里绫人」，当季新鲜龙眼融合清爽生椰水，真椰清甜风味融合龙眼的馥郁蜜香，脆夹马蹄每日手工现切裹木薯粉制成绯樱波波，搭配晶莹嫩滑的弹弹冻，真多肉，真清爽椰。",
+      "category": "时令鲜果",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷500ml",
+      "materials": "当季新鲜龙眼颗颚手剥,优选清爽椰子水融合龙眼汁，保留真哪风味，手工包心马蹄以火龙果汁自然调色化身绯樱波波，搭配爽滑弹弹冻。",
+      "taste": "入口是生椰水的潺潺清甜,伴随新鲜龙眼的如饴蜜香，绯樱波波品莹适粉包裹爽马蹄粒,龙眼鲜果肉的多肉饱满与弹弹冻的嫩滑柔软交织,樗香轻盈款款,龙眼蜜香郁郁,清交鲜甜而至。",
+      "tips": "“绯樱波液以火龙果汁自然调色而成，不含任何人工色素与香精。“底料丰富,饮用前先用吸管搅拌,风味更佳。“西面仅为创作效果,请以门店出品为准。"
+    },
+    {
+      "id": 6,
+      "goodsName": "绫华 · 寒霜龙眼椰",
+      "price": 19,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1805/5bonmfHoM5dBIVyc5phBtq4V6hTUUe1jelZ8GFB0.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1805/qTwurNnm93y3gQknF8WTmhn1jtD6I1mp1J1A8Xj2.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "喜茶x原神",
+      "tagTemperature": "",
+      "description": "喜茶×原神联名款,灵感源自冰系角色「神里绫华」，当季龙眼融合生打椰冰沙。优选当季新鲜龙眼手剥切丁裹木薯粉制成包心龙眼，灵感生打椰融合龙眼汁,真椰风味交织龙眼蜜甜,脆爽马蹄每日手工现切裹粉制成绯樱波波，搭配轻盈桂花冻,真椰香醇，真果有料。",
+      "category": "时令鲜果",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷500ml",
+      "materials": "当季新鲜龙眼手工现制包心龙眼,生打椰融合龙眼汁打制成冰沙,手工包心马蹄以火龙果汁自然调色化身绯樱液波，搭配轻盈细滑的定制桂花冻。",
+      "taste": "生打椰的真椰风味与龙眼鲜果的如饴蜜香融霜于舌尖之上，晶莹透粉的绯棂波液裹挟着脆爽马蹄粒,包心龙眼的糯滑与桂花冻的轻盈交相呼应，真揶香醇,真果有料。",
+      "tips": "“绯樱波液以火龙果汁自然调色而成，不含任何人工色素与香精。“底料丰富，饮用前先用吸管搅拌,风味更佳。“画面仅为创作效果,请以门店出品为准。"
+    },
+    {
+      "id": 7,
+      "goodsName": "芋糯糯",
+      "price": 18,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1813/WkBX83WfPy0EHV19rM4Fped3d17AeSSPPVtjL8lK.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1813/w9Ow8kdCPT5J9XGZwUXLUw5CiTTSDCaF8xdEnPYs.jpeg"
+      ],
+      "tagContent": "含乳制品、茶",
+      "tagAd": "",
+      "tagTemperature": "冷热皆宜",
+      "description": "优选泰国长粒香糯米，真奶米粗粑,更Q弹，更软糯。融合经典嫣红牛乳茶底，奶香、茶香、米香相互交织。绵密芋泥、香醇芋头丁丰富口感层次，芋香浓醇,冷热皆宜。",
+      "category": "灵感上新",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷/热500ml",
+      "materials": "每日手工现做顺滑拉丝米糯糖,优远泰国长粒香糯米，搭配颗粒分明的李头丁与绵密纽腻的芋泥,在香醇嫣红牛乳茶中，香醇浓郁,糯感加倍。",
+      "taste": "厚厚奶香、茶香与米香、芋香款款交织，糯感饱满,厚实纸腻，要稠糯，要真奶法芋。",
+      "tips": "“底部料足，饮用前建议用吸管搅拌均匀，饮用口感更佳喔。“热饮沼度高,推荐使用纸吸管,纸吸管体验更佳。拿到后请小心饮用，吸入时请注意烫口哦。"
+    },
+    {
+      "id": 8,
+      "goodsName": "只喜青芋",
+      "price": 16,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1813/GXST6GwdNiwAQMaUwcjQKY79z1bCGKONFWT0VHd6.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1813/7H8oNzHmv0E0XNCUevwrpbEY8oVsmQQQDbPkp3mM.jpeg"
+      ],
+      "tagContent": "含茶",
+      "tagAd": "喜茶X只此青绿",
+      "tagTemperature": "冷热皆宜",
+      "description": "喜茶×只此青绿,真奶加抹茶，色泽青润,风味醇净，佐以喜茶定制芋泥融合芋头丁，现蒸现制,搭配青稞软糯弹牙有嚼劲，粉糯浓郁的口感中释放清新麦香。饱满四重香，料感十足。",
+      "category": "灵感上新",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷/热500ml",
+      "materials": "优选真奶融合低湿碉磨的抹茶,色泽青润,风味醇净，佐以喜茶定刮芋混融合芋头丁，现蒸现制，搭配青稞,料感十足。",
+      "taste": "真奶配抹茶，色青味醇,芋泥软糯青稞弹牙，饱满四重香，风味鲜浓,料感十足。",
+      "tips": "“饮品久置有少量抹茶粉沉淀属正常现象，底料丰富，搅拌后风味口感更佳。“饮品含麸质的谷物、乳制品。“真抹茶白带荼青味略苦,不喜慎点。"
+    },
+    {
+      "id": 9,
+      "goodsName": "豆糯糯",
+      "price": 18,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1814/FyPlBVmLnnPKrUOEj66l3egO0XG9cUvvzXo6XMik.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1814/IfEmglkgnc6aqvhvt0SKtOjYj1P8yWTVQi4fNRHv.jpeg"
+      ],
+      "tagContent": "含茶/含乳及大豆制品",
+      "tagAd": "",
+      "tagTemperature": "冷热皆宜",
+      "description": "优选泰国长粒香糯米,真奶米糯粑,更Q弹，更软糯。融合经典嫣红茶MIX豆奶，搭配嫩滑豆花与浓醇豆奶茶底，豆香奶香馥郁，要糯糯,要真奶韵浓~冷热皆宜。",
+      "category": "灵感上新",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷/热500ml",
+      "materials": "每日手工现做顺滑拉丝米钙糯,优远泰国长粒香糯米,搭配嫩滑豆花与醇香豆奶茶底,浓郁糯糯米香与豆香奶香,芝士顶加持芝香四治。",
+      "taste": "藕糯米香、豆花香,奶香交融,糯糯科感饱满,真奶纸腻顺滑,要理糯,要真奶韵浓。",
+      "tips": "“可根据个人口味接嫣红牛乳茶底。“底部料足，饮用前建议用吸管搅拌均匀，饮用口感更佳喔。“热饮默认不含芝士。“赫饮温度高，推荐使用纸吸管，纸吸管体验更佳。拿到后请小心饮用，吸入时请注意烫口哦。"
+    },
+    {
+      "id": 11,
+      "goodsName": "鸭糯糯",
+      "price": 17,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1814/geI4LBNPNBMGnVnz3T1FJLdDSr5V8dx7cC3TQEIX.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1814/xAPnyPQnESsbKPUv0WecwTw4wi9cuI8JJGqKnfQ5.jpeg"
+      ],
+      "tagContent": "含茶/含乳制品",
+      "tagAd": "",
+      "tagTemperature": "冷热皆宜",
+      "description": "优选泰国长粒香糯米,真奶米糯粑，更Q弹，更软糯。融合鸭喜香牛乳茶底,米香浓浓交融茶香隐隐醇韵与款款奶香，要糯精，要真奶韵浓~冷热皆宜。",
+      "category": "灵感上新",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷/热500ml",
+      "materials": "每日手工现做顺滑拉丝米糯糯,优远泰国长粒香糯来,搭配定制芋闼波波，融合鸭喜香牛乳荼,糯糯米香与醇醇奶香、隐隐茶韵交织相应。",
+      "taste": "藕糯米香与鸭喜香茶韵隐隐交织,俾随奶香顺滑款款迭至,招糯料感饱满，真奶纽眩顺滑，芝士顶加持芝香四溢。",
+      "tips": "“底部料足，饮用箭建议用吸管搅拌均匀，饮用口感更佳喔。“热饮默认不含芝士。“热饮温度高。推荐使用纸吸管,纸吸管体验更佳。拿到后请小心帔用，吸入时请注意烫口哦。"
+    },
+    {
+      "id": 12,
+      "goodsName": "轻糯糯",
+      "price": 16,
+      "goodsPicSwiper": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1818/ANMw5jdoCiumKvTLXzTKCgGnFZtmfOujtAL0nSvL.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1818/Xedkm7v4T9AuXWHIESUL9TkgXlRRni0ztBnvt31D.jpeg"
+      ],
+      "tagContent": "含麸质的谷物/含乳制品、茶",
+      "tagAd": "",
+      "tagTemperature": "冷热皆宜",
+      "description": "优选泰国长粒香糯米,真奶米糯粑，更Q弹，更软糯。融合鸭喜香牛乳茶底,米香浓浓交融茶香隐隐醇韵与款款奶香，要糯精，要真奶韵浓~冷热皆宜。",
+      "category": "灵感上新",
+      "isHot": false,
+      "isRecommend": true,
+      "cupSize": "冷/热500ml",
+      "materials": "每日手工现做顺滑拉丝米糯糯,优远泰国长粒香糯来,搭配定制芋闼波波，融合鸭喜香牛乳荼,糯糯米香与醇醇奶香、隐隐茶韵交织相应。",
+      "taste": "藕糯米香与鸭喜香茶韵隐隐交织,俾随奶香顺滑款款迭至,招糯料感饱满，真奶纽眩顺滑，芝士顶加持芝香四溢。",
+      "tips": "“底部料足，饮用箭建议用吸管搅拌均匀，饮用口感更佳喔。“热饮默认不含芝士。“热饮温度高。推荐使用纸吸管,纸吸管体验更佳。拿到后请小心帔用，吸入时请注意烫口哦。"
+    }
+  ],
+  "bannerHomeTop": [
+    {
+      "id": 1,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1657/zI55569AV2TGdPYv8BWNKmt2tjJ7f8dmL8ESfUsP.png"
+    },
+    {
+      "id": 2,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1657/Mayx2iDSzWORP9rmWpyVNQVoNmmQWGdmvsbky2B3.png"
+    },
+    {
+      "id": 3,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/2qpQeBVZUL2EsoRr6D7EOXrnUdvSBxA78w92MwZ0.png"
+    },
+    {
+      "id": 4,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/7aTJyn1H0Stmmb2pgDUYfFxmNRxRuMN7f16Nf87E.png"
+    },
+    {
+      "id": 5,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/yr53AY6RJ71SYAaqWZY9y0nn6hm14NL0AN83SXmN.png"
+    },
+    {
+      "id": 6,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/XOTrsxkOZGFYoXh2XTVHrPseL4fj3aIY7nUEeOjN.png"
+    },
+    {
+      "id": 7,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/XOTrsxkOZGFYoXh2XTVHrPseL4fj3aIY7nUEeOjN.png"
+    },
+    {
+      "id": 8,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/SGu5iIW7l2naZPiw2Bk9zb9c2S8680lLTLS9JfbR.png"
+    },
+    {
+      "id": 9,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1658/SJMsb4Zh8PaER7ZuUte57YNBJtVgY2savmUTRpqA.png"
+    },
+    {
+      "id": 10,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1709/lVCKwpHuWaHJwIz7WAtStiE0PNhaqtCVfSpYnMqC.png"
+    },
+    {
+      "id": 11,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1709/OKIKchB6FSiZcv8c2JDa4crwrEtBnQPPgYPJyUNk.png"
+    },
+    {
+      "id": 12,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1709/7Djg87B7XRgmAcr7Qcn0DwZlwGm8Y41puU8pEr8n.png"
+    }
+  ],
+  "bannerHomeBottom": [
+    {
+      "id": 1,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1712/6vUy1B9KKKmYWqApRhNKuT9m8j7fEqHLOSRDlN8V.png"
+    },
+    {
+      "id": 2,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1712/FIRuqe88NKCv9Kvcl1k1fMVO3SCrFEyMA8I42hlE.png"
+    },
+    {
+      "id": 3,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1712/9XJE2IVjo8QXqX0Swu1oF6dLQurDaXDgxH6DZ0Le.png"
+    },
+    {
+      "id": 4,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1712/cX3U0S0KONIAbdOYs9tBXaaAFblFE0TGIBanBXqd.png"
+    },
+    {
+      "id": 5,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1712/b4CuTv7exxzbNQXh3lBSRgbSTM63IVjC17GFRXzg.png"
+    }
+  ],
+  "bannerGrocery": [
+    {
+      "id": 1,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1716/hh0NE8TqWarEhXSYIzV53EIOmMlBeGlZ0kHf0YP5.png"
+    },
+    {
+      "id": 2,
+      "bannerPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1716/vjioSoQtDYCsBHyk9IxInvrtGOpRNbrJhRT39Zz9.png"
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "shopName": "湛江万象金沙湾",
+      "orderTime": "2021-3-9 20:33:24",
+      "isFinished": false,
+      "isProduction": true,
+      "price": 19,
+      "buyCounts": 1,
+      "goodId": 1
+    },
+    {
+      "id": 2,
+      "shopName": "佛山岭南站店",
+      "orderTime": "2021-5-8 20:33:24",
+      "isFinished": true,
+      "isProduction": true,
+      "price": 15,
+      "buyCounts": 1,
+      "goodId": 2
+    },
+    {
+      "id": 3,
+      "shopName": "广州壬丰大夏店",
+      "orderTime": "2022-8-23 16:33:24",
+      "isFinished": true,
+      "isProduction": false,
+      "price": 18,
+      "buyCounts": 1,
+      "goodId": 1
+    },
+    {
+      "id": 4,
+      "shopName": "广州白云永泰店",
+      "orderTime": "2022-10-14 16:33:24",
+      "isFinished": false,
+      "isProduction": false,
+      "price": 11.88,
+      "buyCounts": 1,
+      "goodId": 3
+    }
+  ],
+  "groceryCard": [
+    {
+      "id": 1,
+      "title": "喜茶瓶装",
+      "text": "随心喝喜茶",
+      "cardPic": "http://ts.lagou.uieee.com/storage/2022/10/13/2002/faKf468YG8tfFIK8iZG91HJHp4csT4jL3DmUgPlR.png"
+    },
+    {
+      "id": 2,
+      "title": "一周茶礼盒",
+      "text": "灵感好茶",
+      "cardPic": "http://ts.lagou.uieee.com/storage/2022/10/13/2002/AYpILWVrQA0hZb2FqVBIvlRMmAvB8h25Qn1572Wh.png"
+    },
+    {
+      "id": 3,
+      "title": "喜茶冰棒",
+      "text": "夹心冰棒",
+      "cardPic": "http://ts.lagou.uieee.com/storage/2022/10/13/2002/9FnlJJni7ah4IUx0If0U0DGGWkvkbBwpRNumOpAO.png"
+    },
+    {
+      "id": 4,
+      "title": "灵感周边",
+      "text": "卡券水杯",
+      "cardPic": "http://ts.lagou.uieee.com/storage/2022/10/13/2001/49t9Gx5KYSsjiHhK6K3EyS8BdtEozz6Nau0hooON.png"
+    }
+  ],
+  "groceryNew": [
+    {
+      "id": 1,
+      "picUrl": "http://ts.lagou.uieee.com/storage/2022/10/13/1725/za8u6P68rDbbLU0xe7AcnXCqvs8kttbPaItp9bsn.png"
+    }
+  ],
+  "groceryHot": [
+    {
+      "id": 1,
+      "detailPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1729/j7Y54akOk1Y5hDWNFxWl3HPjigdW28TDUIOQOCat.jpeg",
+      "price": 18,
+      "name": "喜茶柠檬茶柠檬茶柠檬茶柠檬茶柠檬茶柠檬茶柠檬茶喜茶柠檬茶",
+      "brand": "喜茶",
+      "hotPic": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1728/EpybQxrbbryWyMQAsZZRoOqUZqf1CFgKy3QkPwXq.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1728/S8u81ZXcG5iX1FXiACpl6xznYUu5OHRJ4ZwvErEB.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "detailPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1734/Ymwbg3aXgzLanUSVkVMOG1pCo6CupEPjEHDbxof4.jpeg",
+      "price": 8,
+      "name": "喜茶 低糖 轻乳茶",
+      "brand": "喜茶",
+      "hotPic": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1733/SdwV7mwEnvHc6f0S9Y4XunqfDQ29oaRjoyxAXhzf.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1733/XC8Z2a08UhYhfSqpauYhYztGdmJmPfJQ0pL9bT9O.jpeg"
+      ]
+    },
+    {
+      "id": 3,
+      "detailPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1736/dgbqssS4F4EQ4oe4phllgfVG1a7szdvB6JUuR5c1.jpeg",
+      "price": 11.88,
+      "name": "大喜之日 喜茶x王者",
+      "brand": "喜茶",
+      "hotPic": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1736/VZIrI9CoebaxO9sUX7z4haIPMI4LdczpKaeHZACv.jpeg",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1736/yQom8n94YuxxYY7WZN1zB2xezTbXnAZUp0upQWrd.jpeg"
+      ]
+    }
+  ],
+  "groceryGridGoods": [
+    {
+      "id": 1,
+      "price": 13,
+      "title": "灵感一周茶礼盒",
+      "description": "7款喜茶经典茗茶",
+      "brand": "喜茶",
+      "deliveryPrice": "免运费",
+      "tag": "一周茶礼盒",
+      "detail": "http://ts.lagou.uieee.com/storage/2022/10/13/1918/TxWfzpHEz0ox5GpSgLaJMRrVRRZHAYn1DMY6vJQr.jpeg",
+      "pictureList": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/0f6pP72pDPY6qQvM0JIMwLTAGF642YM81WCwdV2L.png",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/lSzmJxaqrztHoQP1mOkrmxjEUEBzNVcXkIzn011H.png"
+      ]
+    },
+    {
+      "id": 2,
+      "price": 13,
+      "title": "灵感吸管杯",
+      "description": "好喝的吸管杯",
+      "brand": "喜茶",
+      "deliveryPrice": "免运费",
+      "tag": "灵感周边",
+      "detail": "http://ts.lagou.uieee.com/storage/2022/10/13/1917/3bvEa1STuFBMznI6WMCKRvnLtREHpG53EZSOkemf.jpeg",
+      "pictureList": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1917/iXjG4XPu0cFcZVbDJAEYwY62fm5XaISbRJ2aQuYy.png",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1917/zKLzEBIf77UHH0XRKQDQ1y5P61ErdGStUA7voVdH.png"
+      ]
+    },
+    {
+      "id": 3,
+      "price": 13,
+      "title": "瓶装喜茶哟",
+      "description": "7款喜茶经典茶",
+      "brand": "喜茶",
+      "deliveryPrice": "免运费",
+      "tag": "喜茶瓶装",
+      "detail": "http://ts.lagou.uieee.com/storage/2022/10/13/1918/TxWfzpHEz0ox5GpSgLaJMRrVRRZHAYn1DMY6vJQr.jpeg",
+      "pictureList": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/0f6pP72pDPY6qQvM0JIMwLTAGF642YM81WCwdV2L.png",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/lSzmJxaqrztHoQP1mOkrmxjEUEBzNVcXkIzn011H.png"
+      ]
+    },
+    {
+      "id": 4,
+      "price": 13,
+      "title": "冰冰棒棒哒",
+      "description": "冰棒哟",
+      "brand": "喜茶",
+      "deliveryPrice": "免运费",
+      "tag": "喜茶冰棒",
+      "detail": "http://ts.lagou.uieee.com/storage/2022/10/13/1918/TxWfzpHEz0ox5GpSgLaJMRrVRRZHAYn1DMY6vJQr.jpeg",
+      "pictureList": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/0f6pP72pDPY6qQvM0JIMwLTAGF642YM81WCwdV2L.png",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/lSzmJxaqrztHoQP1mOkrmxjEUEBzNVcXkIzn011H.png"
+      ]
+    },
+    {
+      "id": 5,
+      "price": 13,
+      "title": "冰棒",
+      "description": "7款喜茶经典茗茶",
+      "brand": "喜茶",
+      "deliveryPrice": "免运费",
+      "tag": "喜茶冰棒",
+      "detail": "http://ts.lagou.uieee.com/storage/2022/10/13/1918/TxWfzpHEz0ox5GpSgLaJMRrVRRZHAYn1DMY6vJQr.jpeg",
+      "pictureList": [
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/0f6pP72pDPY6qQvM0JIMwLTAGF642YM81WCwdV2L.png",
+        "http://ts.lagou.uieee.com/storage/2022/10/13/1918/lSzmJxaqrztHoQP1mOkrmxjEUEBzNVcXkIzn011H.png"
+      ]
+    }
+  ],
+  "groceryGridTopPic": [
+    {
+      "id": 1,
+      "title": "喜茶瓶装",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1852/f8fYU0WLPpUCz2YrdwlCIqzBT0BaxneFalaa0mIt.png"
+    },
+    {
+      "id": 2,
+      "title": "一周茶礼盒",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1851/y8DXNoaYMUgZsKY9QUndXZmw89RjwwF1dFVII7ZV.png"
+    },
+    {
+      "id": 3,
+      "title": "喜茶冰棒",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1852/cy4DnkcOCGtSfd3XqyNCPfGZIsybRM8MXalx4n15.png"
+    },
+    {
+      "id": 4,
+      "title": "灵感周边",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1852/HZPeGSUANYcaAGnKXeIMKZXROKmyKnlusTGAaULK.png"
+    }
+  ],
+  "centerVip": [
+    {
+      "id": 1,
+      "vipPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1937/vO2tYUF2cFCzOjjJIxeoCbc22WHYOTdznh2zaH6X.png",
+      "vipText": "积分商城"
+    },
+    {
+      "id": 2,
+      "vipPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1938/jbgWnuhysoko9FCMtYU3fVHDMxlmhT5A6fDXc9Ht.png",
+      "vipText": "喜茶券"
+    },
+    {
+      "id": 3,
+      "vipPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1938/RWAL7VeVaZP8Ubi78IPQkB38o01yAjEdk53mJuin.png",
+      "vipText": "钱包"
+    }
+  ],
+  "centerGift": [
+    {
+      "id": 1,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1933/b6AhHBXgSGAz4MJF7FivmDc4vz2HM3soEuHPw2lJ.png",
+      "giftText": "星球赠饮券"
+    },
+    {
+      "id": 2,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1933/t5OzmtL9HVDIBOhvozLKI8qjTCZ3VuEVsGUPHhb1.png",
+      "giftText": "买一赠一券"
+    },
+    {
+      "id": 3,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1934/ncp7pWe8dFETyttIfkuKFrCKOLzUSxDf3YuCXAwH.png",
+      "giftText": "买二赠一券"
+    },
+    {
+      "id": 4,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1934/Pz9d50fw13ZJsc0iaswY0yzJAKujLOQYo3VtCdwz.png",
+      "giftText": "喜茶轻食"
+    },
+    {
+      "id": 5,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1934/5hOjx3U2BKMvZojrHrTbkIWc0c9OYyHqBNc5tUES.png",
+      "giftText": "优先券"
+    },
+    {
+      "id": 6,
+      "giftPic": "http://ts.lagou.uieee.com/storage/2022/10/13/1934/SNJipPKPUxrLP3cC86VxuughApEhrjExjMe1asZT.png",
+      "giftText": "免运费券"
+    }
+  ],
+  "userCoupon": [
+    {
+      "id": 1,
+      "couponName": "买一赠一券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1819/qTL4Vzb4ENY8AzuHB0gsfILZHrmVtC5sgcn4mpTa.png",
+      "tag": "买一赠一券"
+    },
+    {
+      "id": 2,
+      "couponName": "买一赠一券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1819/qTL4Vzb4ENY8AzuHB0gsfILZHrmVtC5sgcn4mpTa.png",
+      "tag": "买一赠一券"
+    },
+    {
+      "id": 3,
+      "couponName": "买二赠一券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1820/4LYnHYKF4WDHZ7EyLozbxal6Pn3vZyqQLoFgKNAw.png",
+      "tag": "买二赠一券"
+    },
+    {
+      "id": 4,
+      "couponName": "买二赠一券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1820/4LYnHYKF4WDHZ7EyLozbxal6Pn3vZyqQLoFgKNAw.png",
+      "tag": "买二赠一券"
+    },
+    {
+      "id": 5,
+      "couponName": "波波家族券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1820/cRNfWXFtkbRDhjGHx0xqywC4IOwIJHINBApUprE9.png",
+      "tag": "免运费券"
+    },
+    {
+      "id": 6,
+      "couponName": "咖啡券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1820/7ICLAvOBTTrJ52rzbjamLlSKdBmTem6YWPTnuNYG.png",
+      "tag": "咖啡券"
+    },
+    {
+      "id": 7,
+      "couponName": "波波家族券",
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1820/cRNfWXFtkbRDhjGHx0xqywC4IOwIJHINBApUprE9.png",
+      "tag": "波波家族券"
+    }
+  ],
+  "studentVipCard": [
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1847/UylMQrkQJleXia9kLYKTr1HlW1W515NOKFcew2Zp.png",
+      "description": "喜茶学士帽logo",
+      "id": 1
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1847/khC9sMrjrTAU5PmZMGy6xKjE7zyRlutxiqWbY0RA.png",
+      "description": "9元喝喜茶券",
+      "id": 2
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1847/KpnsOyuy8jvuTCDInxVbgeU9Zmo8yXSHoPd3jSvQ.png",
+      "description": "闲时88折券",
+      "id": 3
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1847/THNJ5SJLC9hDL1Wfl9iCoXWtWKudWxsozydzDsYM.png",
+      "description": "学子贵宾卡",
+      "id": 4
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1848/tb8SxO5hfTZeqkWTLaZ0sTPBcmYIjNQXb5h3kMz8.png",
+      "description": "学子贵宾卡了解更多",
+      "id": 5
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1848/hzmF0bkFVJ9Z0b1OgC7a09jigIDOpHv1qq7D8I9I.png",
+      "description": "学子券包",
+      "id": 6
+    }
+  ],
+  "homeHappyThings": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/nOVBcD8JUMkk6cs8zlahINLGEMFaRLDtW9IiryYk.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/i4ZjkGrxtPcUXGBjW3lGYxEIMKdZEZh7PChGfhy6.jpeg"
+    },
+    {
+      "id": 3,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/OnRRe2ndnU6hkz4t9wS8FuT671ENS5WWXow9VtxO.jpeg"
+    },
+    {
+      "id": 4,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/nwHi3rX3NeDeXOx6NN1wZAaHzqHlu3A113ytT10k.jpeg"
+    }
+  ],
+  "homeBless": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/lMf9RRhbU3Zxz5ZcMgk0HjV5eVsxS7BdHSyKlckW.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/JMbTiMCgqRtp5QYpfE9962fkZx1eNvJtW2sJblsL.jpeg"
+    },
+    {
+      "id": 3,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/qwEky6Kd8AvPuwWfglwgYDxsm8SjOYy89CY33CG4.jpeg"
+    },
+    {
+      "id": 4,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/i3FRkrMyMp6za2woqy7ansaVLSOcOwqCUVqzeaEG.jpeg"
+    },
+    {
+      "id": 5,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1833/YXAQ6W1F1Eo8T7tMhnpqA1RX5t5urGOwX0AkB9Ds.jpeg"
+    }
+  ],
+  "homeSurprise": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1840/19iQO1s9utez6KKMYFjJB5H4J3DGJOvtttSBuumZ.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1840/7jBpuWwOVEQjeAIHs3Sa4QhLYSD1poSFvWbp2sX1.jpeg"
+    },
+    {
+      "id": 3,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1840/vFIqMaicNwhvvAFf0Fiaf3VPNGlpYgdOt1Sxvyfd.jpeg"
+    }
+  ],
+  "homeCertification": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/yinhnTIbiKdiubPVoLxZwxFiN9RZJZbvHJkaYCrx.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/cjqCnAH2ZMMhPxXz0AobvFsvxjT3lisuubA0ICYt.jpeg"
+    },
+    {
+      "id": 3,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/ytSjgZrKzDpp39osEGXqQieMEJ2LuagDKi9Rd6Db.jpeg"
+    },
+    {
+      "id": 4,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/7DaKq0uuRvJOfM9i5Xe0TQCBQVbNhjfHtbMTDXqT.jpeg"
+    }
+  ],
+  "homeYuanShen": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/MpJcLycEDGbLkKkAHrQJt0wC9duzrgM4CRyUaOBG.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1841/5uXPFm7UPrTbZ7JKLbX4Tc5k2ZscLiF5drWCivNV.jpeg"
+    }
+  ],
+  "homeStudent": [
+    {
+      "id": 1,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1826/cDxPOF7Eftdk6XEE65WuESzPwm3zHWEUM5cCNu5g.jpeg"
+    },
+    {
+      "id": 2,
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1826/OOiacnbXVmOIaOQsgMXhW2FdApUWtMUIl2NwuGFE.jpeg"
+    }
+  ],
+  "others": [
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1854/GxELb3tkpbSYt2cOwy9AtmMiwueJjnWkhtgLVFCv.gif",
+      "description": "订单页空数据的背景动图(loading.gif)",
+      "id": 1
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1903/FlaoG3HD3SUNK1sqJ987LAJdtYH1ZqvRb8sDR04R.jpeg",
+      "description": "喜·茶话会.jpg",
+      "id": 2
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1855/o7TCXV1fb7nu0DSJkivcTHcwjujADoEsImGZnUCt.png",
+      "description": "首页最底部的图(茶饮开创者)",
+      "id": 3
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1855/WUxxaXlTXWE6sfgrIYK8Ah5UvB0fqPN8QbB7LjRz.jpeg",
+      "description": "新茶饮开创者页面.jpg",
+      "id": 4
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1907/Zkc1OJMuAhxuyBoLvoR3T7YpPUFEqrLz87LsXaG4.png",
+      "description": "百货-公告-疫情停发快递通知.jpg",
+      "id": 5
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1725/za8u6P68rDbbLU0xe7AcnXCqvs8kttbPaItp9bsn.png",
+      "description": "百货-上新广告.jpg",
+      "id": 6
+    },
+    {
+      "picture": "",
+      "description": "喜茶×王者-详情页长图.jpg",
+      "id": 7
+    },
+    {
+      "picture": "",
+      "description": "喜茶·轻乳茶-详情页长图.jpg",
+      "id": 8
+    },
+    {
+      "picture": "",
+      "description": "喜茶·柠檬茶-详情页长图.jpg",
+      "id": 9
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1903/UtUPg3Zdvz2ZQnnzOXw6nOYazV5jVDJbIU2pI8vt.jpeg",
+      "description": "阿喜团餐",
+      "id": 11
+    },
+    {
+      "picture": "http://ts.lagou.uieee.com/storage/2022/10/13/1856/8snTfleBPMrs9Hp8qhXHHG1qhpua7cNCbMC2OrkH.png",
+      "description": "喜遇原神 特别版 旅行手记",
+      "id": 12
+    }
+  ]
+}
